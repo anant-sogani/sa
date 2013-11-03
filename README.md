@@ -1,6 +1,8 @@
 Description
 ===========
-Class project to prove classical computers aren't any less powerful than D-Wave One. Solve the combinatorial optimization problem with better success probabilities and lower running times.
+Class project to prove classical computers aren't any less powerful
+than D-Wave One. Solve the combinatorial optimization problem with
+better success probabilities and lower running times.
 
 Files
 --------
@@ -19,7 +21,7 @@ Files
 Results
 --------
 I've collected results for 3 different Runs-per-Test-Instance values - **R** = {1, 10, 100}.
-* R.csv - Success Probability numbers for individual instances.
+* R.csv - Success probability numbers for individual instances.
 * R.png - Histogram plots.
 
-So far, the results are superior to D-Wave One's. It remains to be seen how my implementation performs for **R** = 1000.
+So far, the results are superior to D-Wave One's. It remains to be seen how the implementation performs for **R** = 1000.
