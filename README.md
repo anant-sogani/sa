@@ -85,7 +85,7 @@ There are currently two big cost contributors, each consuming about
 half of the total run time.
 
 1. The evaluation of `(rand() / RAND_MAX) < exp(- dH / T)`.
-2. Spin save, and the associated energy contribution updates for
+2. Spin save and the associated energy contribution updates for
 neighboring particles.
 
 Possible solutions.
