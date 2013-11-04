@@ -47,7 +47,7 @@ Benchmarking--108q--15us--02-Aug-2012-17-04-11.txt, 0.989599, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-04-20.txt, 0.343260, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-04-28.txt, 0.824017, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-04-37.txt, 0.957078, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-04-46.txt, 0.025739, 0.00
+Benchmarking--108q--15us--02-Aug-2012-17-04-46.txt, 0.025739, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-04-54.txt, 0.712808, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-05-03.txt, 0.375342, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-05-11.txt, 0.451110, 1.00
@@ -58,14 +58,14 @@ Benchmarking--108q--15us--02-Aug-2012-17-05-46.txt, 0.927274, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-05-55.txt, 0.557703, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-06-03.txt, 0.084076, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-06-12.txt, 0.975948, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-06-20.txt, 0.642452, 0.00
+Benchmarking--108q--15us--02-Aug-2012-17-06-20.txt, 0.642452, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-06-29.txt, 0.829737, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-06-38.txt, 0.891460, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-06-46.txt, 0.734163, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-06-55.txt, 0.003257, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-07-04.txt, 0.672732, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-07-13.txt, 0.083844, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-07-21.txt, 0.732696, 1.00
+Benchmarking--108q--15us--02-Aug-2012-17-07-21.txt, 0.732696, 0.00
 Benchmarking--108q--15us--02-Aug-2012-17-07-30.txt, 0.122653, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-07-39.txt, 0.815584, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-07-47.txt, 0.924321, 1.00
@@ -81,7 +81,7 @@ Benchmarking--108q--15us--02-Aug-2012-17-09-10.txt, 0.002339, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-09-18.txt, 0.927239, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-09-28.txt, 0.953038, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-09-37.txt, 0.846600, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-09-45.txt, 0.162415, 0.00
+Benchmarking--108q--15us--02-Aug-2012-17-09-45.txt, 0.162415, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-09-54.txt, 0.045785, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-10-03.txt, 0.987913, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-10-11.txt, 0.845429, 1.00
@@ -119,7 +119,7 @@ Benchmarking--108q--15us--02-Aug-2012-17-15-11.txt, 0.088125, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-15-20.txt, 0.376462, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-15-29.txt, 0.011417, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-15-38.txt, 0.585032, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-15-47.txt, 0.522705, 0.00
+Benchmarking--108q--15us--02-Aug-2012-17-15-47.txt, 0.522705, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-15-56.txt, 0.989702, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-16-05.txt, 0.745987, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-16-13.txt, 0.970330, 1.00
@@ -198,7 +198,7 @@ Benchmarking--108q--15us--02-Aug-2012-17-27-20.txt, 0.047150, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-27-29.txt, 0.506793, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-27-37.txt, 0.777072, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-27-46.txt, 0.844137, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-27-55.txt, 0.858316, 0.00
+Benchmarking--108q--15us--02-Aug-2012-17-27-55.txt, 0.858316, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-28-03.txt, 0.506819, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-28-12.txt, 0.413793, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-28-21.txt, 0.176396, 1.00
@@ -206,14 +206,14 @@ Benchmarking--108q--15us--02-Aug-2012-17-28-29.txt, 0.009441, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-28-38.txt, 0.970843, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-28-47.txt, 0.088693, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-28-55.txt, 0.071158, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-29-04.txt, 0.000140, 0.00
+Benchmarking--108q--15us--02-Aug-2012-17-29-04.txt, 0.000140, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-29-13.txt, 0.006166, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-29-21.txt, 0.966512, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-29-30.txt, 0.374769, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-29-38.txt, 0.974066, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-29-47.txt, 0.816324, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-29-56.txt, 0.677317, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-30-05.txt, 0.019413, 0.00
+Benchmarking--108q--15us--02-Aug-2012-17-30-05.txt, 0.019413, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-30-13.txt, 0.318822, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-30-22.txt, 0.628992, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-30-30.txt, 0.766057, 1.00
@@ -275,7 +275,7 @@ Benchmarking--108q--15us--02-Aug-2012-17-38-26.txt, 0.959443, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-38-34.txt, 0.489044, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-38-43.txt, 0.982922, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-38-52.txt, 0.911399, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-39-00.txt, 0.576355, 0.00
+Benchmarking--108q--15us--02-Aug-2012-17-39-00.txt, 0.576355, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-39-09.txt, 0.773719, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-39-18.txt, 0.811155, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-39-27.txt, 0.912883, 1.00
@@ -376,7 +376,7 @@ Benchmarking--108q--15us--02-Aug-2012-17-53-00.txt, 0.970491, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-53-08.txt, 0.907170, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-53-17.txt, 0.950115, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-53-25.txt, 0.942201, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-53-34.txt, 0.914035, 0.00
+Benchmarking--108q--15us--02-Aug-2012-17-53-34.txt, 0.914035, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-53-43.txt, 0.646950, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-53-51.txt, 0.918464, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-54-00.txt, 0.667127, 1.00
@@ -403,7 +403,7 @@ Benchmarking--108q--15us--02-Aug-2012-17-56-53.txt, 0.018502, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-57-01.txt, 0.711930, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-57-10.txt, 0.711984, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-57-18.txt, 0.002188, 1.00
-Benchmarking--108q--15us--02-Aug-2012-17-57-27.txt, 0.965895, 0.00
+Benchmarking--108q--15us--02-Aug-2012-17-57-27.txt, 0.965895, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-57-36.txt, 0.105600, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-57-44.txt, 0.662285, 1.00
 Benchmarking--108q--15us--02-Aug-2012-17-57-53.txt, 0.439804, 1.00
@@ -540,7 +540,7 @@ Benchmarking--108q--15us--02-Aug-2012-18-16-44.txt, 0.957050, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-16-52.txt, 0.991284, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-17-01.txt, 0.976613, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-17-10.txt, 0.505706, 1.00
-Benchmarking--108q--15us--02-Aug-2012-18-17-18.txt, 0.461494, 0.00
+Benchmarking--108q--15us--02-Aug-2012-18-17-18.txt, 0.461494, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-17-27.txt, 0.908768, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-17-36.txt, 0.987513, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-17-44.txt, 0.965625, 1.00
@@ -580,7 +580,7 @@ Benchmarking--108q--15us--02-Aug-2012-18-22-30.txt, 0.235442, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-22-38.txt, 0.965365, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-22-47.txt, 0.981766, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-22-56.txt, 0.937390, 1.00
-Benchmarking--108q--15us--02-Aug-2012-18-23-04.txt, 0.020938, 0.00
+Benchmarking--108q--15us--02-Aug-2012-18-23-04.txt, 0.020938, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-23-13.txt, 0.891193, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-23-22.txt, 0.918818, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-23-30.txt, 0.963705, 1.00
@@ -630,7 +630,7 @@ Benchmarking--108q--15us--02-Aug-2012-18-29-45.txt, 0.385567, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-29-53.txt, 0.643884, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-30-02.txt, 0.893126, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-30-11.txt, 0.886786, 1.00
-Benchmarking--108q--15us--02-Aug-2012-18-30-19.txt, 0.349470, 0.00
+Benchmarking--108q--15us--02-Aug-2012-18-30-19.txt, 0.349470, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-30-28.txt, 0.930960, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-30-37.txt, 0.024398, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-30-45.txt, 0.974571, 1.00
@@ -648,7 +648,7 @@ Benchmarking--108q--15us--02-Aug-2012-18-32-20.txt, 0.974029, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-32-29.txt, 0.731431, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-32-37.txt, 0.588475, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-32-46.txt, 0.970459, 1.00
-Benchmarking--108q--15us--02-Aug-2012-18-32-55.txt, 0.085289, 0.00
+Benchmarking--108q--15us--02-Aug-2012-18-32-55.txt, 0.085289, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-33-03.txt, 0.804686, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-33-12.txt, 0.783247, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-33-21.txt, 0.762981, 1.00
@@ -659,7 +659,7 @@ Benchmarking--108q--15us--02-Aug-2012-18-33-55.txt, 0.944071, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-34-04.txt, 0.810130, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-34-13.txt, 0.140028, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-34-22.txt, 0.753285, 1.00
-Benchmarking--108q--15us--02-Aug-2012-18-34-29.txt, 0.000549, 0.00
+Benchmarking--108q--15us--02-Aug-2012-18-34-29.txt, 0.000549, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-34-38.txt, 0.551332, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-34-47.txt, 0.529122, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-34-56.txt, 0.770668, 1.00
@@ -807,7 +807,7 @@ Benchmarking--108q--15us--02-Aug-2012-18-55-13.txt, 0.970868, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-55-22.txt, 0.801102, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-55-30.txt, 0.778023, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-55-39.txt, 0.970295, 1.00
-Benchmarking--108q--15us--02-Aug-2012-18-55-48.txt, 0.023125, 0.00
+Benchmarking--108q--15us--02-Aug-2012-18-55-48.txt, 0.023125, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-55-56.txt, 0.869759, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-56-05.txt, 0.888372, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-56-14.txt, 0.930563, 1.00
@@ -826,7 +826,7 @@ Benchmarking--108q--15us--02-Aug-2012-18-57-57.txt, 0.853886, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-58-06.txt, 0.018443, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-58-14.txt, 0.001435, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-58-23.txt, 0.202373, 1.00
-Benchmarking--108q--15us--02-Aug-2012-18-58-32.txt, 0.001487, 0.00
+Benchmarking--108q--15us--02-Aug-2012-18-58-32.txt, 0.001487, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-58-40.txt, 0.952665, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-58-49.txt, 0.936148, 1.00
 Benchmarking--108q--15us--02-Aug-2012-18-58-58.txt, 0.802099, 1.00
@@ -956,7 +956,7 @@ Benchmarking--108q--15us--02-Aug-2012-22-16-58.txt, 0.860074, 1.00
 Benchmarking--108q--15us--02-Aug-2012-22-17-06.txt, 0.936668, 1.00
 Benchmarking--108q--15us--02-Aug-2012-22-17-15.txt, 0.904600, 1.00
 Benchmarking--108q--15us--02-Aug-2012-22-17-24.txt, 0.939864, 1.00
-Benchmarking--108q--15us--02-Aug-2012-22-17-32.txt, 0.738135, 0.00
+Benchmarking--108q--15us--02-Aug-2012-22-17-32.txt, 0.738135, 1.00
 Benchmarking--108q--15us--02-Aug-2012-22-17-41.txt, 0.414166, 1.00
 Benchmarking--108q--15us--02-Aug-2012-22-17-50.txt, 0.959059, 1.00
 Benchmarking--108q--15us--02-Aug-2012-22-17-58.txt, 0.981621, 1.00

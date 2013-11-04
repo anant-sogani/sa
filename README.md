@@ -25,15 +25,9 @@ and should be compiled with `gcc -O3`. Running time = 35ms.
 * admin.pl - Wrapper script for invoking the executable for
 different test instances.
 
-Results
---------
-I've collected results for 3 different Runs-per-Test-Instance values
-: R = {1, 10, 100}.
-* R.csv - Success probability numbers for individual instances.
-* R.png - Histogram plots.
-
-So far, the results are superior to D-Wave One's.
-It remains to be seen how the implementation performs for R = 1000.
+* results/ - Folder with csv data and graphs from 4 different
+Runs-per-Test-Instance values R = {1, 10, 100, 1000}. The official
+R is 1000, and that's what I use below to interpret the results.
 
 Algorithm
 ==========
@@ -99,3 +93,29 @@ Possible solutions.
 * There are apparently faster Pseudo-Random Number Generators than
 `rand()`, based on Intel's SSE instruction set.
 * Smarter energy update logic.
+
+Results
+===========
+Executable : `gcc -O3 sa4.c`.
+Laptop     : Lenovo G580
+CPU        : Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
+
+* Run Time
+  1. With 1000 test instances and 1000 runs-per instance, the total
+time taken was 33169 seconds, giving an average run time of 33ms.
+  2. No parallel threading. One process/main-thread 'a.out' ran tests
+sequentially.
+  3. To compare, D-Wave One has a 2.5s cooling time + 15us annealing
+time = 2.5s per run.
+
+* Success Probability **p(s)**
+  1. Compared instance-by-instance, the **p(s)** values are greater
+than D-Wave One's on 995 out of the 1000 test instances.
+  2. In 2 of the remaining 5 instances, both D-Wave and the simulated
+annealing algorithm achieve probability 1, and so couldn't beat each
+other :)
+
+Conclusion
+-----------
+This was a very good exercise in getting to understand the apparent
+power and potential of D-Wave One.
