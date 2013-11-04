@@ -262,4 +262,3 @@ int main (int n, char * args[])
     printf("%1.2f\n", (float) s / K);
     return 0;
 }
-

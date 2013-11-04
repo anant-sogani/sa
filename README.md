@@ -98,4 +98,4 @@ half of the total run time.
 Possible solutions.
 * There are apparently faster Pseudo-Random Number Generators than
 `rand()`, based on Intel's SSE instruction set.
-* Better representation of spins, and a smarter energy update logic.
+* Smarter energy update logic.
