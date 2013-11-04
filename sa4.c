@@ -241,17 +241,24 @@ sa (void)
  * MAIN:
  * <it> <file-name> [<K = No. of Runs>] [<MAX = Annealing Iter>]
  */
-int main (int n, char * args[])
+int main (int argc, char * args[])
 {
     int     k;
     int     h;
+    int     n;
 
     read_instance(args[1]);
 
     /* Customizable Parameters. */
-    if (args[2]) { K = atoi(args[2]);   }
-    if (args[3]) { MAX = atoi(args[3]); }
+    switch (argc) {
+    case 4: 
+        n = atoi(args[3]); MAX = ((n > 0) ? n : MAX);
+        /* FALLTHROUGH */
+    case 3: 
+        n = atoi(args[2]); K = ((n > 0) ? n : K); 
+    }
 
+    /* This many runs of the Simulated Annealing algorithm. */
     for (k = 0; k < K; k++) {
         h = sa();
         if (h == E) {
