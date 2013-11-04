@@ -53,7 +53,7 @@ Temperature Schedule
 * Initial Temperature T0 = 1
 * Final Temperature   Tf = 0
 * Temperature Change  dT = (Tf - T0) / MAX = - 0.000001
-* Cooling down `T = T + dT`
+* Cooling down formula: T = T + dT
   - Turned out it is better to cool down **only** when a higher
 energy state has been accepted.
   - This happens in 10% of the iterations, so roughly 100K times.
@@ -71,7 +71,7 @@ by a single spin flip. That's MAX = 1 million calculations.
 * The spin flip is "in the air" unless it is accepted, and that
 happens only 10% of the time. So, 90% of all spin flips are 
 rejections and are not worth actually *doing*.
-* Turns out that selecting particles (to flip spin) sequentially
+* Turns out that selecting particles (to flip spin) *sequentially*
 is as good as choosing them at random.
 
 The equivalent changes were as follows.
@@ -91,6 +91,7 @@ Future Optimizations
 ------------------------
 There are currently two big cost contributors, each consuming about
 half of the total run time.
+
 1. The expression `(rand() / RAND_MAX) < exp(- dH / T)`.
 2. Spin save and the energy contributions update mechanism.
 
