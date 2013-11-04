@@ -26,8 +26,8 @@ and should be compiled with `gcc -O3`. Running time = 35ms.
 different test instances.
 
 * results/ - Folder with csv data and graphs from 4 different
-Runs-per-Test-Instance values R = {1, 10, 100, 1000}. The official
-R is 1000, and that's what I use below to interpret the results.
+runs-per-test-instance values R = {1, 10, 100, 1000}. The official
+R is 1000, and that's what I use to interpret the results.
 
 Algorithm
 ==========
@@ -66,17 +66,15 @@ by a single spin flip. That's MAX = 1 million calculations.
 happens only 10% of the time. So, 90% of all spin flips are 
 rejections and are not worth actually *doing*.
 * Turns out that selecting particles (to flip spin) *sequentially*
-is as good as choosing them at random.
+performed as good as when they were chosen at random.
 
-The equivalent changes were as follows.
+The equivalent changes were then:
 
-1. dH calculation was reduced to a single lookup, indexed by particle
-number. 
-2. Flips are saved only when they are accepted. Also, this is when
-the energy contributions of individual particles are updated, to 
-help facilitate the above lookup. 
-3. Sequential selection eliminated the cost of one `rand()` call
-per iteration.
+1. dH calculation was reduced to a *single* lookup.
+2. Data-structure-wise, spin flips were only really done when
+*accepted*.
+3. Sequential particle selection eliminated the cost of one `rand()`
+call per iteration.
 
 (1), (2) reduced the run time from 4s to 0.8s in Perl, and to .05s
 in C. Adding (3) reduced the run time to .035s (35ms) in C.
@@ -86,19 +84,20 @@ Future Optimizations
 There are currently two big cost contributors, each consuming about
 half of the total run time.
 
-1. The expression `(rand() / RAND_MAX) < exp(- dH / T)`.
-2. Spin save and the energy contributions update mechanism.
+1. The evaluation of `(rand() / RAND_MAX) < exp(- dH / T)`.
+2. Spin save, and the associated energy contribution updates for
+neighboring particles.
 
 Possible solutions.
-* There are apparently faster Pseudo-Random Number Generators than
-`rand()`, based on Intel's SSE instruction set.
-* Smarter energy update logic.
+* Faster Pseudo-Random Number Generators than `rand()` can be used.
+These are based on Intel's SSE instruction set.
+* Unsure. But something smarter than what I could come up with :) 
 
 Results
 ===========
 Executable : `gcc -O3 sa4.c`.
-Laptop     : Lenovo G580
-CPU        : Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
+
+Laptop     : Lenovo G580 with Intel CPU i5-3210M @ 2.50GHz
 
 * Run Time
   1. With 1000 test instances and 1000 runs-per instance, the total
