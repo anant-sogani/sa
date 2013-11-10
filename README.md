@@ -39,7 +39,7 @@ Iterations
 -----------
 Smaller values of MAX (like 100000, 10000, 1000) didn't give
 comparably good results, and higher values didn't improve the
-success probabilities to an extend that they were worth the
+success probabilities to an extent that they were worth the
 higher running costs. Hence this sweet spot :)
 
 Temperature Schedule
