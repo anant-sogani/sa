@@ -95,7 +95,7 @@ These are based on Intel's SSE instruction set.
 
 Results
 ===========
-Executable : `gcc -O3 sa4.c`.
+Executable : `gcc -O3 sa4.c -lm`.
 
 Laptop     : Lenovo G580 with Intel CPU i5-3210M @ 2.50GHz
 
